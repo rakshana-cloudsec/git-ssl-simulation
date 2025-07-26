@@ -1,0 +1,5 @@
+- Enabled strict SSL verification
+- Simulated Git clone with invalid domain
+- Captured error output
+- Provided fix suggestions
+- Delivered PDF summary
