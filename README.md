@@ -1,16 +1,25 @@
-# Git + SSL + Domain Error Simulation
+# Git + SSL Error Simulation Project
 
-This project simulates a common issue developers face when Git is used with custom domains and SSL certificates. The goal is to demonstrate how to reproduce and resolve Git + domain + SSL-related errors in a safe environment.
+This project simulates a common Git + SSL/domain misconfiguration scenario for debugging and learning purposes. It mimics the type of real-world issues often encountered when managing Git repositories hosted on custom domains or behind HTTPS.
 
-## 🧪 Scenario
-- Git over HTTPS to a domain with invalid or untrusted SSL certificate.
-- Typical errors include `SSL certificate problem`, `unable to get local issuer certificate`, or `Could not resolve host`.
+## 🔍 Purpose
 
-## 🛠 Tools Used
-- Git CLI
-- Bash shell
-- Simulated domain (non-existent)
+This repository was created as part of my freelance cybersecurity portfolio to demonstrate:
 
-## 🧯 What You'll See
-- Simulated error output from a Git clone attempt
-- Explanation and solution steps in `solution.md`
+- Debugging Git over HTTPS issues
+- Handling SSL certificate/domain misconfiguration
+- Testing Git clone/push/pull scenarios from broken environments
+- Providing clean solutions and documentation to clients
+
+## 💻 What's Inside
+
+- `index.html`: Static placeholder site
+- `script.sh`: Simulated shell script to reproduce a Git SSL issue
+- `.gitconfig`: Mock Git configuration to simulate SSL error
+- `README.md`: Project overview and usage instructions
+
+## 🚀 How to Run (for Testing)
+
+1. Clone the repo:
+   ```bash
+   git clone https://yourdomain.com/yourrepo.git
